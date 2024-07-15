@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #000000;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #000000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+  }
+
+  .navbar-collapse {
+    background-color: #000000;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-colored {
+    color: #000000;
+}
+
+#sobre-nos img,
+#novidades img {
+    border: 1px solid #e7e7e7;
+}
+
+#novidades {
+    background-color: #f8f9fa;
+}
+
+#novidades img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover; 
+}
+
+#catalogo .nav-catalogo .nav-link {
+    border: 1px solid #e7e7e7;
+    margin-bottom: 5px;
+}
+
+#catalogo .nav-catalogo .nav-link.active {
+    background-color: #000000;
+    color: #fff;
+}
+
+#catalogo .tab-content .card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+#catalogo .tab-content .card {
+    transition: transform 0.2s;
+}
+
+#catalogo .tab-content .card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 80px;
+    }
+}

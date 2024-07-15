@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGEN Shoes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">AGEN Shoes</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre Nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#novidades" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Novidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#catalogo" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Catálogo
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slides/tenis1.jpg" class="d-block w-100" alt="Tênis 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Nova Coleção</h5>
+                        <p>Confira os últimos lançamentos da nossa coleção.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slides/tenis2.jpg" class="d-block w-100" alt="Tênis 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Promoções Exclusivas</h5>
+                        <p>Aproveite nossos descontos especiais.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slides/tenis3.jpg" class="d-block w-100" alt="Tênis 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Conforto e Estilo</h5>
+                        <p>Descubra o conforto e estilo dos nossos tênis.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+        <section id="sobre-nos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/loja.jpg" class="d-block w-100 rounded" alt="Foto da loja">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0"> 
+                        <h2 class="section-title">Sobre <span class="text-colored">Nós</span></h2>
+                        <p>
+                            Bem-vindo à AGEN Shoes! Oferecemos uma ampla variedade de tênis para todas as ocasiões, combinando conforto e estilo. Explore nossa coleção e encontre o par perfeito para você.
+                        </p>
+                        <ul>
+                            <li>Variedade de estilos</li>
+                            <li>Conforto garantido</li>
+                            <li>Preços acessíveis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="novidades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Novidades <span class="text-colored">da Loja</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/novidades/nova-colecao.jpg" alt="Nova Coleção" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-star-fill"></i>
+                            Nova Coleção
+                        </h3>
+                        <p>
+                            Confira nossa nova coleção de tênis, trazendo as últimas tendências da moda e tecnologia para seus pés.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/novidades/promocao.jpg" alt="Promoções" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-tags-fill"></i>
+                            Promoções
+                        </h3>
+                        <p>
+                            Aproveite nossas promoções especiais e garanta seus tênis favoritos com descontos imperdíveis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/novidades/exclusivo.jpg" alt="Exclusivos" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-gem"></i>
+                            Modelos Exclusivos
+                        </h3>
+                        <p>
+                            Descubra nossos modelos exclusivos, disponíveis apenas em nossa loja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalogo" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">Catálogo</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-catalogo">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#masculino" class="fw-bold text-start nav-link text-colored active">Masculino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#feminino" class="fw-bold text-start nav-link text-colored">Feminino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#infantil" class="fw-bold text-start nav-link text-colored">Infantil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#promocoes" class="fw-bold text-start nav-link text-colored">Promoções</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10 tab-content">
+                        <div class="tab-pane fade show active" id="masculino">
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <div class="card">
+                                        <img src="images/catalogo/masculino/tenis1.jpg" class="card-img-top" alt="Tênis Masculino 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tênis Masculino 1</h5>
+                                            <p class="card-text">R$ 199,90</p>
+                                            <button class="btn btn-outline-dark">Ver mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="feminino">
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <div class="card">
+                                        <img src="images/catalogo/feminino/tenis1.jpg" class="card-img-top" alt="Tênis Feminino 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tênis Feminino 1</h5>
+                                            <p class="card-text">R$ 199,90</p>
+                                            <button class="btn btn-outline-dark">Ver mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="infantil">
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <div class="card">
+                                        <img src="images/catalogo/infantil/tenis1.jpg" class="card-img-top" alt="Tênis Infantil 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tênis Infantil 1</h5>
+                                            <p class="card-text">R$ 149,90</p>
+                                            <button class="btn btn-outline-dark">Ver mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="promocoes">
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <div class="card">
+                                        <img src="images/catalogo/promocoes/tenis1.jpg" class="card-img-top" alt="Tênis Promoção 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tênis Promoção 1</h5>
+                                            <p class="card-text">R$ 99,90</p>
+                                            <button class="btn btn-outline-dark">Ver mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Entre em <span class="text-colored">Contato</span></h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-dark">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <p><i class="bi bi-geo-alt-fill"></i> Rua Exemplo, 123 - Centro, Cidade</p>
+                        <p><i class="bi bi-telephone-fill"></i> (00) 1234-5678</p>
+                        <p><i class="bi bi-envelope-fill"></i> contato@agenshoes.com.br</p>
+                        <p><i class="bi bi-clock-fill"></i> Segunda a Sexta: 9h às 18h</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="pt-5 pb-5 bg-dark text-light">
+        <div class="container text-center">
+            <p>&copy; 2023 AGEN Shoes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
